@@ -31,7 +31,7 @@ export default function About() {
         {/* Left Column */}
         <div>
           <img
-            src="/bag.webp"
+            src="/delivery.webp"
             alt="Grocery Delivery"
             className="rounded-lg max-h-[400px]  mb-6"
           />

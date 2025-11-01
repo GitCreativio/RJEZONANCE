@@ -11,8 +11,8 @@ export default function Footer() {
             <FaMapMarkerAlt className="text-red-500 text-xl mt-1 mr-3" />
             <div>
               <h4 className="text-white font-semibold mb-2">Address</h4>
-              <p>street</p>
-              <p>place</p>
+              <p>1/694, Valaiyapathi Salai</p>
+              <p> Mogappair East, Chennai Pin: 600037</p>
             </div>
           </div>
 
@@ -21,14 +21,14 @@ export default function Footer() {
             <FaPhoneAlt className="text-red-500 text-xl mt-1 mr-3" />
             <div>
               <h4 className="text-white font-semibold mb-2">Contact</h4>
-              <p>
+              <div>
                 <div className=" flex">
                   <strong>Phone:</strong>{" "}
                   <div>+91 6743113643 <br /> +91 6743532991</div>{" "}
                 </div>
                 <br />
                 <strong>Email:</strong> info@example.com
-              </p>
+              </div>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ export default function Footer() {
         <div className="text-center mt-8 pt-4 border-t border-gray-800">
           <p>
             © <span>Copyright</span>{" "}
-            <strong className="text-white">RJE Zonance</strong> — All Rights
+            <strong className="text-white text-sm">RJE ZONANCE COMMUNICATION LLP</strong> — All Rights
             Reserved
           </p>
         </div>

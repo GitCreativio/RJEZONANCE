@@ -1,14 +1,26 @@
 import { MessageCircle, Phone } from "lucide-react";
-import React from "react";
+import src from "../assets/hero.json";
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center bg-[url('/hero.webp')] bg-cover bg-center relative text-white text-center px-4"
+      style={{
+        backgroundImage: `url('${src}')`,
+      }}
+      className="min-h-screen  flex flex-col justify-center items-center  bg-cover bg-center relative text-white text-center px-4"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/30"></div>
+
+      <div className=" absolute   top-25 left-5  sm:top-25 sm:left-20 md:left-25 md:top-30">
+        <img
+          src="/Logo.png"
+          className=" max-w-[60px] md:max-w-[100px]"
+          alt="logo"
+        />
+        {/* <img src={src} className=" max-w-[60px] md:max-w-[100px]" alt="logo" /> */}
+      </div>
 
       {/* Content */}
       <div className="relative  z-10 max-w-2xl px-4 py-8 sm:px-6 md:px-10">

@@ -21,27 +21,29 @@ export default function Header() {
     >
       <div className="container mx-auto flex justify-between items-center py-10 px-5 md:px-24">
         {/* Logo */}
-        <h1 className="text-3xl font-bold">
-          RJE <span className="text-red-500">ZONANCE</span>
+        <a href="#">
+          <h1 className="text-3xl cursor-pointer font-bold">
+          ZOOM <span className="text-red-500">Delivery</span>
         </h1>
+        </a>
 
         {/* Desktop Menu */}
         <nav className="hidden text-lg font-semibold md:flex space-x-6">
           <a href="#home" className="relative group">
             Home
-            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-green-600 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute  left-0 -bottom-1 w-0 h-[2px] bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a href="#about" className="relative group">
             About
-            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-green-600 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a href="#why" className="relative group">
             Why Us
-            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-green-600 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a href="#contact" className="relative group">
             Contact
-            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-green-600 transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-green-600 transition-all duration-300 group-hover:w-full"></span>
           </a>
         </nav>
 

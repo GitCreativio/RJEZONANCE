@@ -10,7 +10,7 @@ export default function Contact() {
     {
       icon: <FaMapMarkerAlt />,
       title: "Address",
-      text: "Street, India, Pin",
+      text: "1/694, Valaiyapathi Salai, Mogappair East, Chennai Pin: 600037",
     },
     {
       icon: <FaPhoneAlt />,
