@@ -77,7 +77,13 @@ export default function Footer() {
             </strong>{" "}
             — All Rights Reserved
           </p>
-          <a className=" text-gray-500" href="https://creativio.in/">Powered by Creativio Media & Advertising LLP</a>
+          <a
+            className=" text-gray-500"
+            href="https://creativio.in/"
+            target="_blank"
+          >
+            Powered by Creativio Media & Advertising LLP
+          </a>
         </div>
       </div>
     </footer>
