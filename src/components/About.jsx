@@ -47,7 +47,7 @@ export default function About() {
               </a>{" "}
               <br />
               <a
-                href="https://wa.me/6743113643"
+                href="https://wa.me/9178017897"
                 target="_blank"
                 className="flex justify-center items-center gap-4"
               >

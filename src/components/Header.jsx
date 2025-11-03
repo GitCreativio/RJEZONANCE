@@ -15,8 +15,8 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed w-full top-0  z-50 transition-all duration-300 ${
-        scrolled ? "bg-white text-black shadow-md" : "bg-transparent text-white"
+      className={`fixed w-full top-0   z-50 transition-all duration-300 ${
+        scrolled ? "bg-white  text-black shadow-md" : "bg-transparent text-white mt-10"
       }`}
     >
       <div className="container mx-auto flex justify-between items-center py-10 px-5 md:px-24">

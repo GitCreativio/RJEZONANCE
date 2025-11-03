@@ -13,14 +13,13 @@ const Hero = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/30"></div>
 
-      <div className=" absolute   top-25 left-5  sm:top-25 sm:left-20 md:left-25 md:top-30">
+      {/* <div className=" absolute   top-25 left-5  sm:top-25 sm:left-20 md:left-25 md:top-30">
         <img
           src="/Logo.png"
           className=" max-w-[60px] md:max-w-[100px]"
           alt="logo"
         />
-        {/* <img src={src} className=" max-w-[60px] md:max-w-[100px]" alt="logo" /> */}
-      </div>
+      </div> */}
 
       {/* Content */}
       <div className="relative  z-10 max-w-2xl px-4 py-8 sm:px-6 md:px-10">
@@ -40,7 +39,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://wa.me/+916743532991"
+            href="https://wa.me/+919178017897"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full flex items-center gap-2 text-white font-medium w-full sm:w-auto justify-center"
