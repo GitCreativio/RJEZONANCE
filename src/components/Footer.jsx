@@ -3,7 +3,7 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 text-sm py-10">
+    <footer className="bg-gray-900 text-gray-300 text-sm pt-10">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Address */}
@@ -24,7 +24,9 @@ export default function Footer() {
               <div>
                 <div className=" flex">
                   <strong>Phone:</strong>{" "}
-                  <div>+91 6743113643 <br /> +91 6743532991</div>{" "}
+                  <div>
+                    +91 6743113643 <br /> +91 6743532991
+                  </div>{" "}
                 </div>
                 <br />
                 <strong>Email:</strong> info@example.com
@@ -67,12 +69,15 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="text-center mt-8 pt-4 border-t border-gray-800">
+        <div className="text-center py-4 flex flex-col justify-center items-center mt-8 gap-1 border-t border-gray-800">
           <p>
             © <span>Copyright</span>{" "}
-            <strong className="text-white text-sm">RJE ZONANCE COMMUNICATION LLP</strong> — All Rights
-            Reserved
+            <strong className="text-white text-sm">
+              RJE ZONANCE COMMUNICATION LLP
+            </strong>{" "}
+            — All Rights Reserved
           </p>
+          <a className=" text-gray-500" href="https://creativio.in/">Powered by Creativio Media & Advertising LLP</a>
         </div>
       </div>
     </footer>
